@@ -136,3 +136,11 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2025-08-10 19:41:40,929 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
 2025-08-10 19:41:41,078 - __main__ - INFO - Starting server on http://127.0.0.1:8001
 2025-08-10 19:41:41,078 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-10 19:42:38,665 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\agung\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-10 19:42:39,103 - models.user - INFO - User created successfully: ame13
+2025-08-10 20:03:04,374 - models.user - INFO - User created successfully: nandi123
