@@ -1,0 +1,17 @@
+FastAPI
+uvicorn
+numpy
+opencv-python
+pydantic
+tensorflow
+torch
+torchvision
+requests
+ultralytics
+python-multipart
+sqlalchemy
+pymysql
+cryptography
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv

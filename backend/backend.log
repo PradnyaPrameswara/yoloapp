@@ -1,0 +1,138 @@
+2025-08-06 11:53:24,271 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-06 11:53:26,543 - __main__ - ERROR - Missing packages: opencv-python
+2025-08-06 11:53:26,544 - __main__ - ERROR - Please install missing packages with: pip install -r requirements.txt
+2025-08-06 11:53:26,544 - __main__ - ERROR - Dependency check failed. Exiting.
+2025-08-06 16:38:33,041 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-06 16:38:35,352 - __main__ - ERROR - Missing packages: opencv-python
+2025-08-06 16:38:35,352 - __main__ - ERROR - Please install missing packages with: pip install -r requirements.txt
+2025-08-06 16:38:35,352 - __main__ - ERROR - Dependency check failed. Exiting.
+2025-08-06 16:38:57,072 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-06 16:38:59,399 - __main__ - ERROR - Missing packages: opencv-python
+2025-08-06 16:38:59,399 - __main__ - ERROR - Please install missing packages with: pip install -r requirements.txt
+2025-08-06 16:38:59,399 - __main__ - ERROR - Dependency check failed. Exiting.
+2025-08-06 16:41:48,692 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-06 16:41:51,131 - __main__ - INFO - Starting server on http://127.0.0.1:8000
+2025-08-06 16:41:51,131 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-07 03:40:04,280 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-07 03:40:08,096 - __main__ - INFO - Starting server on http://127.0.0.1:8000
+2025-08-07 03:40:08,096 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-07 03:44:15,557 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-07 03:44:18,136 - __main__ - INFO - Starting server on http://127.0.0.1:8000
+2025-08-07 03:44:18,137 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-07 13:33:00,057 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-07 13:33:02,703 - __main__ - INFO - Starting server on http://127.0.0.1:8000
+2025-08-07 13:33:02,703 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-07 13:35:40,848 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-07 13:35:43,538 - __main__ - INFO - Starting server on http://127.0.0.1:8000
+2025-08-07 13:35:43,539 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-08 16:59:28,731 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-08 16:59:32,074 - __main__ - INFO - Starting server on http://127.0.0.1:8000
+2025-08-08 16:59:32,074 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-08 17:07:34,205 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-08 17:07:37,458 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-08 17:07:37,458 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-08 17:11:41,345 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-08 17:11:44,839 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-08 17:11:44,840 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-10 10:37:20,291 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 10:37:28,991 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-10 10:37:28,992 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-10 10:43:51,738 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 10:43:58,834 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-10 10:43:58,834 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-10 10:44:35,697 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 10:44:42,152 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-10 10:44:42,153 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-10 10:45:05,878 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 10:45:11,431 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-10 10:45:11,431 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-10 10:45:33,229 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\agung\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-10 11:44:22,352 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 11:44:28,975 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-10 11:44:28,975 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-10 11:44:48,827 - models.user - ERROR - Error getting user by username: (pymysql.err.OperationalError) (1054, "Unknown column 'users.is_active' in 'field list'")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.password AS users_password, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'ame123', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 11:44:48,831 - models.user - ERROR - Error getting user by email: (pymysql.err.OperationalError) (1054, "Unknown column 'users.is_active' in 'field list'")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.password AS users_password, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'ame123@gmail.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 11:44:48,832 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\agung\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-10 11:44:49,248 - models.user - ERROR - Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'is_active' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, updated_at) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(updated_at)s)]
+[parameters: {'username': 'ame123', 'email': 'ame123@gmail.com', 'password': '$2b$12$zq7T5INcD8hfJI8CwMS5WO14H9p7jVLcYdP.m74NJW8q91aF1B45u', 'is_active': 1, 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 11:44:54,256 - models.user - ERROR - Error getting user by username: (pymysql.err.OperationalError) (1054, "Unknown column 'users.is_active' in 'field list'")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.password AS users_password, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'ame123', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 11:44:54,258 - models.user - ERROR - Error getting user by email: (pymysql.err.OperationalError) (1054, "Unknown column 'users.is_active' in 'field list'")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.password AS users_password, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'ame123@gmail.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 11:44:54,654 - models.user - ERROR - Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'is_active' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, updated_at) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(updated_at)s)]
+[parameters: {'username': 'ame123', 'email': 'ame123@gmail.com', 'password': '$2b$12$eHy0mkPS5xSTMy/uiRAvre31FyzUpjfNLX1u6ggQB2VjDIpa1dPFC', 'is_active': 1, 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 11:45:02,995 - models.user - ERROR - Error getting user by username: (pymysql.err.OperationalError) (1054, "Unknown column 'users.is_active' in 'field list'")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.password AS users_password, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'ame12345', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 11:45:02,998 - models.user - ERROR - Error getting user by email: (pymysql.err.OperationalError) (1054, "Unknown column 'users.is_active' in 'field list'")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.password AS users_password, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'ame12345@gmail.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 11:45:03,368 - models.user - ERROR - Error creating user: (pymysql.err.OperationalError) (1054, "Unknown column 'is_active' in 'field list'")
+[SQL: INSERT INTO users (username, email, password, is_active, updated_at) VALUES (%(username)s, %(email)s, %(password)s, %(is_active)s, %(updated_at)s)]
+[parameters: {'username': 'ame12345', 'email': 'ame12345@gmail.com', 'password': '$2b$12$HgEIOp/w3mIUtFp/d2gnJuKEbf7ZN1YDGeqz2dSA4tC19qxipsmg.', 'is_active': 1, 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 11:47:03,266 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 11:47:08,702 - database - INFO - Using database: sqlite:///./yolo_app.db
+2025-08-10 11:47:08,789 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-10 11:47:08,789 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-10 11:47:33,249 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\agung\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-10 11:47:33,710 - models.user - INFO - User created successfully: ame123
+2025-08-10 11:53:21,247 - models.user - INFO - User created successfully: naraagung42
+2025-08-10 12:02:29,567 - models.user - INFO - User created successfully: ame
+2025-08-10 19:41:02,300 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 19:41:10,755 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-10 19:41:15,043 - __main__ - ERROR - Failed to start server: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 19:41:35,319 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 19:41:40,929 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-10 19:41:41,078 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-10 19:41:41,078 - __main__ - INFO - Press Ctrl+C to stop the server
