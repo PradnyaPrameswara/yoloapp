@@ -144,3 +144,21 @@ Traceback (most recent call last):
 AttributeError: module 'bcrypt' has no attribute '__about__'
 2025-08-10 19:42:39,103 - models.user - INFO - User created successfully: ame13
 2025-08-10 20:03:04,374 - models.user - INFO - User created successfully: nandi123
+2025-08-10 22:11:12,145 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 22:11:18,364 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-10 22:11:18,545 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-10 22:11:18,545 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-10 23:20:48,868 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 23:20:57,399 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-10 23:21:01,739 - __main__ - ERROR - Failed to start server: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-10 23:21:07,619 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-10 23:21:12,599 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-10 23:21:12,739 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-10 23:21:12,740 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-10 23:43:19,619 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\agung\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
