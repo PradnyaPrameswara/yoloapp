@@ -162,3 +162,99 @@ Traceback (most recent call last):
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-21 15:03:26,826 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:03:37,705 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:03:42,068 - __main__ - ERROR - Failed to start server: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-21 15:10:01,000 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:10:06,827 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:10:07,017 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 15:10:07,017 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 15:10:40,065 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\agung\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-21 15:10:40,530 - models.user - INFO - User created successfully: ame
+2025-08-21 15:19:01,415 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:19:07,285 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:19:07,469 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 15:19:07,469 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 15:20:12,802 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:20:18,444 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:20:18,596 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 15:20:18,597 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 15:20:25,240 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\agung\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-21 15:30:23,657 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:30:29,621 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:30:29,804 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 15:30:29,805 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 15:34:32,177 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:34:38,116 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:34:38,273 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 15:34:38,274 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 15:34:46,299 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\agung\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-21 15:38:13,274 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:38:19,050 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:38:19,236 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 15:38:19,236 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 15:46:56,038 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:47:02,354 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:47:02,532 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 15:47:02,532 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 15:48:10,397 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:48:16,358 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:48:16,557 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 15:48:16,557 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 15:51:20,757 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:51:26,594 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:51:26,754 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 15:51:26,754 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 15:54:39,822 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 15:54:45,578 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 15:54:45,729 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 15:54:45,729 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 16:01:53,954 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 16:01:59,588 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 16:01:59,744 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 16:01:59,745 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 16:02:56,764 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\agung\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-21 16:11:18,240 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 16:11:24,392 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 16:11:24,561 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 16:11:24,561 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 16:13:14,262 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 16:13:20,112 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 16:13:20,283 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 16:13:20,284 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 16:20:13,446 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 16:20:19,250 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 16:20:19,415 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 16:20:19,416 - __main__ - INFO - Press Ctrl+C to stop the server
+2025-08-21 17:04:05,677 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\agung\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-21 17:05:11,766 - models.user - INFO - User created successfully: ame12
+2025-08-21 17:26:36,057 - __main__ - INFO - Starting FastAPI backend server...
+2025-08-21 17:26:39,415 - database - INFO - Using database: mysql+pymysql://root:@localhost/yolo_web
+2025-08-21 17:26:39,513 - __main__ - INFO - Starting server on http://127.0.0.1:8001
+2025-08-21 17:26:39,514 - __main__ - INFO - Press Ctrl+C to stop the server

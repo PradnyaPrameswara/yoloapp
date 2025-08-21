@@ -117,3 +117,8 @@ async def detect(file: UploadFile = File(...)):
 
     # Return the detected class and the updated state
     return {"detected_class": prediction, "state": state}
+
+@router.post("/api/reset")
+async def reset_calculator():
+    state = user_states[USER_ID] = get_initial_state()
+    return {"message": "Calculator reset successful", "state": state}
