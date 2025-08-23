@@ -30,6 +30,13 @@ const Header = ({ onNavigate }) => {
                     >
                         Tentang
                     </button>
+                    {/* Tombol Predict Gesture */}
+                    <button 
+                        onClick={() => onNavigate('predictGesture')} 
+                        className="text-white hover:text-yellow-300 transition-colors text-base lg:text-lg"
+                    >
+                        Predict Gesture
+                    </button>
                 </div>
             </div>
             
@@ -76,6 +83,16 @@ const Header = ({ onNavigate }) => {
                             className="text-white hover:text-yellow-300 transition-colors text-lg text-left"
                         >
                             Tentang
+                        </button>
+                        {/* Tombol Predict Gesture untuk mobile */}
+                        <button 
+                            onClick={() => {
+                                onNavigate('predictGesture');
+                                setMobileMenuOpen(false);
+                            }} 
+                            className="text-white hover:text-yellow-300 transition-colors text-lg text-left"
+                        >
+                            Predict Gesture
                         </button>
                         <button 
                             onClick={() => {

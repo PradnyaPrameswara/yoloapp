@@ -44,7 +44,52 @@ OPERATOR_MAP = {
     "/": "/"
 }
 
-# --- API Endpoint ---
+# --- API Endpoint for Gesture Prediction ---
+@router.post("/api/predict")
+async def predict_gesture(file: UploadFile = File(...)):
+    if not model:
+        return {"error": "Model not loaded"}
+    
+    # Read image bytes
+    contents = await file.read()
+    nparr = np.frombuffer(contents, np.uint8)
+    img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+    
+    # --- Model Inference ---
+    results = model(img)
+    
+    # Process detections
+    detections = []
+    detected_class = None
+    confidence = 0
+    
+    if results and len(results) > 0:
+        result = results[0]
+        if result.boxes is not None and len(result.boxes) > 0:
+            # Get all detections
+            for i, box in enumerate(result.boxes):
+                class_id = int(box.cls[0].item())
+                conf = box.conf[0].item()
+                class_name = result.names[class_id]
+                
+                detections.append({
+                    "class": class_name,
+                    "confidence": conf,
+                    "bbox": box.xyxy[0].tolist()
+                })
+            
+            # Get the detection with highest confidence
+            best_detection = max(detections, key=lambda x: x["confidence"])
+            detected_class = best_detection["class"]
+            confidence = best_detection["confidence"]
+    
+    return {
+        "detected_class": detected_class,
+        "confidence": confidence,
+        "detections": detections
+    }
+
+# --- API Endpoint for Calculator Detection ---
 @router.post("/api/detect")
 async def detect(file: UploadFile = File(...)):
     if not model:

@@ -6,6 +6,7 @@ import LandingPage from '../pages/LandingPage';
 import HomePage from '../pages/HomePage';
 import HelpPage from '../pages/HelpPage';
 import CalculatorPage from '../pages/CalculatorPage';
+import PredictGesture from '../pages/PredictGesture'; // Tambahkan import ini
 import Login from '../components/Login';
 import Register from '../components/Register';
 
@@ -14,7 +15,7 @@ import Register from '../components/Register';
  * Handles page navigation and auth state
  */
 const AppContent = () => {
-    const [page, setPage] = useState('landing'); // 'landing', 'home', 'help', 'calculator', 'login', 'register'
+    const [page, setPage] = useState('landing'); // 'landing', 'home', 'help', 'calculator', 'predictGesture', 'login', 'register'
     const { loading, isAuthenticated } = useAuth();
 
     const navigateTo = (pageName) => {
@@ -59,6 +60,11 @@ const AppContent = () => {
                     return <Login navigateTo={navigateTo} />;
                 }
                 return <CalculatorPage onNavigate={navigateTo} />;
+            case 'predictGesture': // Tambahkan case ini
+                if (!isAuthenticated) {
+                    return <Login navigateTo={navigateTo} />;
+                }
+                return <PredictGesture onNavigate={navigateTo} />;
             case 'landing':
             default:
                 return <LandingPage onNavigate={navigateTo} />;
